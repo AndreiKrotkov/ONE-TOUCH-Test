@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frontend-test</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+</head>
+<body>
+    <div class="wrapp-body">
+        <div class="wrapper">
+            <div class="content">
+                <header class="header">
+                    <div class="header__info">
+                        <nav class="nav">
+                            <div class="nav__info">
+                                <ul class="info__list">
+                                    <li class="info__item">
+                                        <a href="" class="info__link">О магазине</a>
+                                    </li>
+                                    <li class="info__item">
+                                        <a href="" class="info__link">Доставка и самовывоз</a>
+                                    </li>
+                                    <li class="info__item">
+                                        <a href="" class="info__link">Оплата</a>
+                                    </li>
+                                    <li class="info__item">
+                                        <a href="" class="info__link">Контакты</a>
+                                    </li>
+                                    <li class="info__item">
+                                        <a href="" class="info__link">Блог</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <div class="location">
+                            <div class="location-sity">
+                                <img src="./images/label-sity.png" alt="marker" class="location-sity__img">
+                                <label class="location__label-sity">Город:
+                                    <select name="" id="" class="location-sity__select">
+                                        <option value="">Москва</option>
+                                        <option value="">Воронеж</option>
+                                        <option value="">Белгород</option>
+                                    </select>
+                                </label>
+                            </div>
+                            <div class="person">
+                                <a href="">
+                                    <img src="./images/men.png" alt="" class="person-img">
+                                </a>
+                                <button class="btn-person">Личный кабинет</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__section">
+                        <div class="logo">
+                            <a href="">
+                                <img src="./images/logo.png" alt="logo" class="logo-img">
+                            </a>
+                        </div>
+                        <div class="search">
+                            <div class="search__wrapp-img">
+                                <img src="./images/ikons-seartch.png" alt="search" class="search-img">
+                            </div>
+                            <input type="search" class="search-input" placeholder="Поиск">
+                        </div>
+                        <div class="callback">
+                            <div class="callback-phone">
+                                <a href="" class="callback-phone__link">+7 800 555-33-86</a>
+                            </div>
+                            <button class="callback-btn">Обратный звонок</button>
+                        </div>
+                    </div>
+                    <section class="menu">
+                        <nav class="menu__goods">
+                            <ul class="menu-goods__list">
+                                <li class="menu-goods__item active">
+                                    <a href="" class="menu-goods__link">Мельницы</a>
+                                </li>
+                                <li class="menu-goods__item">
+                                    <a href="" class="menu-goods__link">Техника</a>
+                                </li>
+                                <li class="menu-goods__item">
+                                    <a href="" class="menu-goods__link">Для выпечки</a>
+                                </li>
+                                <li class="menu-goods__item">
+                                    <a href="" class="menu-goods__link">посуда</a>
+                                </li>
+                                <li class="menu-goods__item">
+                                    <a href="" class="menu-goods__link">проращиватели</a>
+                                </li>
+                                <li class="menu-goods__item">
+                                    <a href="" class="menu-goods__link">детям</a>
+                                </li>
+                                <li class="menu-goods__item">
+                                    <a href="" class="menu-goods__link">чай из непала</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="basket">
+                            <a href="">
+                                <img src="./images/ikons-basket.png" alt="" class="basket-img">
+                            </a>
+                            <button class="basket-btn"><span class="js-checkout-price">18 344</span> ₽</button>
+                        </div>
+                    </section>
+                    <div class="wrapp__hamburger">
+                        <div class="menu-wrapper">
+                            <div class="hamburger-menu"></div>
+                            <nav class="hamburger__nav">
+                                <ul class="hamburger-goods__list">
+                                    <li class="hamburger__item">
+                                        <a href="" class="hamburger__link">Мельницы</a>
+                                    </li>
+                                    <li class="hamburger__item">
+                                        <a href="" class="hamburger__link">Техника</a>
+                                    </li>
+                                    <li class="hamburger__item">
+                                        <a href="" class="hamburger__link">Для выпечки</a>
+                                    </li>
+                                    <li class="hamburger__item">
+                                        <a href="" class="hamburger__link">Посуда</a>
+                                    </li>
+                                    <li class="hamburger__item">
+                                        <a href="" class="hamburger__link">Проращиватели</a>
+                                    </li>
+                                    <li class="hamburger__item">
+                                        <a href="" class="hamburger__link">Детям</a>
+                                    </li>
+                                    <li class="hamburger__item">
+                                        <a href="" class="hamburger__link">Чай из непала</a>
+                                    </li>
+                                </ul>
+                            
+                                <ul class="hamburger-info__list">
+                                    <li class="hamburger__item">
+                                        <a href="" class="hamburger__link">О магазине</a>
+                                    </li>
+                                    <li class="hamburger__item">
+                                        <a href="" class="hamburger__link">Доставка и самовывоз</a>
+                                    </li>
+                                    <li class="hamburger__item">
+                                        <a href="" class="hamburger__link">Оплата</a>
+                                    </li>
+                                    <li class="hamburger__item">
+                                        <a href="" class="hamburger__link">Контакты</a>
+                                    </li>
+                                    <li class="hamburger__item">
+                                        <a href="" class="hamburger__link">Блог</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </header>
+            </div>
+
+            <main>
+                <div class="content">
+                    <section class="order-registration">
+                        <form action="">
+                            <h1 class="title">
+                                Оформление заказа
+                            </h1>
+                            <div class="radio-choice-wrapp">
+                                <div class="radio-choice">
+                                    <input type="radio" name="radio" value="" class="radio-choice__input" id="one">
+                                    <label for="one" class="radio-choice__label">Физическое лицо</label>
+                                </div>
+
+                                <div class="radio-choice">
+                                    <input type="radio" name="radio" value="" class="radio-choice__input" id="two">
+                                    <label  for="two" class="radio-choice__label">Юридическое лицо</label>
+                                </div>
+                            </div>
+
+                            <div class="contact-details">
+                                <h2 class="sub-title">
+                                    Контактные данные
+                                </h2>
+                                <div class="contact-details__wrapp-input">
+                                    <div class="contact-details__section-one">
+                                        <div class="input-name__wrapp">
+                                            <div class="input-title-name">Имя</div>
+                                            <div class="input-block">
+                                                <input type="text" class="input-name" placeholder="Иван" pattern="[А-Яа-я\-]+" minlength="2" maxlength="15" required>
+                                            </div>
+                                        </div>
+                                        <div class="input-name__wrapp">
+                                            <div class="input-title-name">Фамилия</div>
+                                            <div class="input-block">
+                                                <input type="text" class="input-surname" placeholder="Иванов" pattern="[А-Яа-я\-]+" minlength="2" maxlength="15" required>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="contact-details__section-two">
+                                        <div class="input-name__wrapp">
+                                            <div class="input-title-name">Эл.почта</div>
+                                            <div class="input-block input-block--email">
+                                                <input type="email" class="input-email" id="input-email" placeholder="Почта" required>
+                                            </div>
+                                        </div>
+
+                                        <div class="input-name__wrapp">
+                                            <div class="input-title-name">Номер телефона</div>
+                                        
+                                            <div class="input-block">
+                                                <div class="inpit-mask">+7</div>
+                                                <input type="tel" class="input-phone" id="input-phone" placeholder="(999) 000 99 99">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="shipping-address">
+                                <h2 class="sub-title">
+                                    Адрес и способ доставки
+                                </h2>
+                                <div class="contact-details__section-one">
+                                    <div class="select-land__name__wrapp">
+                                        <div class="input-title-name" >Страна</div>
+                                        <img src="./images/arow-selest.png" class="arrow-select">
+                                        <select name="" id="" class="select-country">
+                                            <option value="">Россия</option>
+                                        </select>
+                                    </div>
+                                    <div class="select-sity__name__wrapp">
+                                        <div class="input-title-name">Город</div>
+                                        <select name="" id="" class='select-sity'>
+                                            <option value="">Москва</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="delivery-method">
+                                <h2 class="delivery-method__title">
+                                    Способ доставки
+                                </h2>
+                                <div class="delivery-radio">
+                                    <input type="radio" name="x" class="delivery-input-radio js-delivery-radio" value="710" data-price="710" data-type="Доставка курьерской службой" id="delivery-one">
+                                    <label class="delivery-label-radio" for="delivery-one">Доставка курьерской службой — 710 ₽</label>
+                                    <div class="span__wrapp">
+                                        <span class="delivery-label-span">(Срок доставки — 1–3 дня)</span>
+                                    </div>
+                                </div>
+                                <div class="delivery-radio">
+                                    <input type="radio" name="x" class="delivery-input-radio js-delivery-radio" value="210" data-price="210" data-type="Доставка транспортной компанией" id="delivery-two">
+                                    <label class="delivery-label-radio"  for="delivery-two">Доставка транспортной компанией — 210 ₽</label>
+                                    <div class="span__wrapp">
+                                        <span class="delivery-label-span">
+                                            (Данный вид доставки возможен при полной
+                                            предоплате заказа. Срок доставки — 3–5 дней)
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="delivery-radio">
+                                    <input type="radio" name="x" class="delivery-input-radio js-delivery-radio js-delivery-radio__pickup" value="180" data-price="180" data-type="Самовывоз" id="delivery-three">
+                                    <label class="delivery-label-radio" for="delivery-three" id="deliveryLink">Самовывоз — 180 ₽</label>
+                                    <div class="span__wrapp">
+                                        <span class="delivery-label-span">(Доставка до пункта самовывоза займет 2–3 дня)</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pickup-point">
+                                <h3 class="sub-title">
+                                    Пункт самовывоза
+                                </h3>
+                                <div class="input-title-name">Станция метро</div>
+
+                                <div class="wrapp__pickup-point-select">
+                                    <select name="" id="" class="pickup-point__select js-delivery-address-select">
+                                        <option value="Кузнецкий мост" selected data-cord="[55.761507, 37.624516]">Кузнецкий мост</option>
+                                        <option value="Сокольники" data-cord="[55.788991, 37.679880]">Сокольники</option>
+                                        <option value="Парк победы" data-cord="[55.736934, 37.516009]">Парк победы</option>
+                                    </select>
+                                </div>
+                                    <div id="myMap" class="my-map"></div>
+                            </div>
+
+                            <div class="info-order">
+                                <h2 class="sub-title">Ваш заказ</h2>
+                                <div class="payment-info__row-top">
+                                    <div class="block11">
+                                        <div class="payment-info__title"> Мельница ручная Kornkraft<br>Mia aMola</div> 
+                                        <div class="payment-info__value">18 990 ₽</div>
+                                    </div>
+                                    <div class="block11">
+                                    <div class="payment-info__title">Пшеница БИО, 1 кг (Россия)<br>(2 шт)</div>
+                                        <div class="payment-info__value">420 ₽</div>
+                                    </div>
+                                </div>
+                                <div class="payment-info__row-middle">
+                                    <div class="block11">
+                                        <div class="payment-info__title">Размер скидки (5%)</div>
+                                        <div class="payment-info__value">420 ₽</div>
+                                    </div>
+                                    <div class="block11">
+                                        <div class="payment-info__title js-delivery-type">Самовывоз</div>
+                                        <div class="payment-info__value"><span class="js-delivery-price">180</span> ₽</div>
+                                    </div>
+                                    
+                                    <div class="block11">
+                                        <div class="payment-info__table-title">Итого:</div>
+                                        <div class="payment-info__value js-total-price" data-price="18344">18 344 ₽</div>
+                                    </div>
+                                </div>
+                                <div class="payment-info__row-bottom">
+                                    <div class="block11">
+                                        <div class="payment-info__title payment-info__title--color">Сумма с доставкой</div>
+                                    </div>
+                                    <div class="block11">
+                                        <div class="payment-info__value payment-info__value--bold"><span class="js-checkout-price">18 524</span> ₽</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="comment">
+                                <h3 class="comment__title">
+                                    Комментарий к заказу
+                                </h3>
+                                <textarea class="comment-text" pattern = "[А-Яа-я\-]+"></textarea>
+                                <button type="submit" class="comment-submit" value="К выбору способо оплаты">К выбору способа оплаты</button>
+                            </div>
+                        </form>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="content content--foot">
+            <div class="catalogue">
+                <h3 class="catalogue__title">Каталог</h3>
+                <ul class="catalogue__list">
+                    <div class="wrapp__item">
+                        <li class="catalogue__item">
+                            <a href="" class="catalogue__link">
+                                Мельницы
+                            </a>
+                        </li>
+                        <li class="catalogue__item">
+                            <a href="" class="catalogue__link">
+                                Техника
+                            </a>
+                        </li>
+                        <li class="catalogue__item">
+                            <a href="" class="catalogue__link">
+                                Для выпечки
+                            </a>
+                        </li>
+                        <li class="catalogue__item">
+                            <a href="" class="catalogue__link">
+                                Посуда
+                            </a>
+                        </li>
+                    </div>
+                    <div class="wrapp__item">
+                        <li class="catalogue__item">
+                            <a href="" class="catalogue__link">
+                                Проращиватели
+                            </a>
+                        </li>
+                        <li class="catalogue__item">
+                            <a href="" class="catalogue__link">
+                                Детям
+                            </a>
+                        </li>
+                        <li class="catalogue_-item">
+                            <a href="" class="catalogue__link">
+                                Чай из Непала
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+            <div class="foot-info">
+                <h3 class="foot-info__title">Информация</h3>
+                <ul class="foot-info__list">
+                    <li class="foot-info__item">
+                        <a href="" class="foot-info__link">
+                            Доставка и самовывоз
+                        </a>
+                    </li>
+                    <li class="foot-info__item">
+                        <a href="" class="foot-info__link">
+                            О магазине
+                        </a>
+                    </li>
+                    <li class="foot-info__item">
+                        <a href="" class="foot-info__link">
+                            10 причин купить у нас
+                        </a>
+                    </li>
+                    <li class="foot-info__item">
+                        <a href="" class="foot-info__link">
+                            Оплата
+                        </a>
+                    </li>
+                    <li class="foot-info__item">
+                        <a href="" class="foot-info__link">
+                            Мастер класс
+                        </a>
+                    </li>
+                    <li class="foot-info__item">
+                        <a href="" class="foot-info__link">
+                            Блог
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3 class="contact__title">Контакты</h3>
+                <ul class="contact__list">
+                    <li class="contact__item">
+                        <a href="" class="contact__link">
+                            +7 (495) 789 41 43 <span>—</span>
+                        </a>
+                        <a href="" class="contact__link">Москва</a>
+                    </li>
+                    <li class="contact__item">
+                        <a href="" class="contact__link">
+                            +7 (812) 385 55 86 <span>—</span>
+                        </a>
+                        <a href="" class="contact__link">Санкт-Петербург</a>
+                    </li>
+                    <li class="contact__item">
+                        <a href="" class="contact__link">
+                            +7 (800) 555 33 86 <span>—</span>
+                        </a>
+                        <a href="" class="contact__link">вся Россия</a>
+                    </li>
+                    <li class="contact__item">
+                        <a href="" class="contact__link">
+                            Обратная связь
+                        </a>
+                    </li>
+                    <li class="contact__item">
+                        <a href="" class="contact__link">
+                            info@hlebomoli.ru
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="invitation">
+                <h3 class="invitation__title">Вступайте в клуб</h3>
+                <div class="invitation__wrapp-content">
+                    <div class="invitation__text">
+                        <p>Подпишитесь на наши новости и будьте
+                            в кусре всех акций, скидок и новых
+                            поступлений, а также самых изысканных
+                            рецептов.
+                        </p>
+                    </div>
+                    <button class="invitation__btn" placeholder="Ваша почта">Ваша почта</button>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="footer__section-bottom">
+                <div class="copyright">
+                    <p> Хлебомолы</p>
+                    <p>© 2014–2015</p>
+                </div>
+                <div class="socail">
+                    <ul class="social__list">
+                        <li class="social__item">
+                            <a href="" class="social__link social__link--vk"></a>
+                        </li>
+                        <li class="social__item">
+                            <a href="" class="social__link social__link--fb"></a>
+                        </li>
+                        <li class="social__item">
+                            <a href="" class="social__link social__link--inst"></a>
+                        </li>
+                        <li class="social__item">
+                            <a href="" class="social__link social__link--youtube"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
